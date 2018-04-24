@@ -1,0 +1,17 @@
+<section>
+    <programmer-hacker></programmer-hacker>
+    <h1>{{name}}</h1>
+    <div class="names" ng-repeat="name in names">
+        <ul>
+            <li>{{name}}</li>
+            <ul>
+    </div>
+    <ikhlaq-is-cool></ikhlaq-is-cool>
+
+</section>
+
+<button ng-click="showData()">Hämta Data</button>
+
+<div ng-repeat="data in data">
+    <pre>{{data | json}}</pre>
+</div>
